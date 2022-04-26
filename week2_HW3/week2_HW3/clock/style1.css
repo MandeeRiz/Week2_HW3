@@ -1,0 +1,78 @@
+.main{
+    background-color:rgb(26, 142, 219);
+    width: 50vh;
+    height:50vh;
+    border-radius: 50%;
+    box-shadow: rgb(121, 115, 115) 3px 4px 3px;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.mainRed{
+    background-color:red;
+    width: 50vh;
+    height:50vh;
+    border-radius: 50%;
+    box-shadow: rgb(121, 115, 115) 3px 4px 3px;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.input{
+    width:50px;
+    height:20px;
+    border-color:rgb(184, 178, 178);
+    border-style: solid;
+    margin: 5px 3px 10px 30px;
+ 
+}
+
+.button{
+    border-radius: 0;
+    width:60px;
+    height:25px;
+    border-color: rgb(184,178,178);
+    padding: 5px;
+    background-color: white;
+    border-style: solid;
+    
+}
+
+.inputCont{
+    height:10px;
+}
+
+.minInput{
+    width: 60px;
+    height: 60px;
+    display:inline-block;
+    background-color:rgb(26, 142, 219) ;
+    margin:auto;
+    font-size: xx-large;
+    color:black;
+    text-align: center;
+}
+
+.secInput{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: rgb(26, 142, 219);
+    margin:auto;
+    font-size:xx-large;
+    color: black;
+    text-align: center;
+    
+}
+
+p{
+    display: inline-block;
+    font-size: xx-large;
+    margin:auto;
+    
+    
+}

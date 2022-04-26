@@ -1,0 +1,37 @@
+body{
+    background-image: url("dots.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: none;
+}
+.gridBox{
+    border-radius: 50%;
+    background-color: blue;
+}
+.gridBox:hover{
+    border-radius: 50%;
+    background-color: blue;
+    opacity: 0;
+}
+
+.gridBox2{
+    border-radius: 50%;
+    background-color: green;
+}
+
+.gridBox3{
+    border-radius: 50%;
+    background-color: red;
+}
+
+.gridContainer{
+    display: grid;
+    grid-gap: none;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    grid-template-columns: repeat(3,auto);
+
+}
